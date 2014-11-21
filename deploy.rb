@@ -26,13 +26,11 @@ while spawn != nil do
 		rover = Rover.new(x, y, d, max_x, max_y, plateau)
 
 		instructions = gets.chomp.split('')
-
 		rover.explore(instructions)
 		puts rover.position
 	else
 		puts "There is already a rover here!"
 	end
-
 	# get next rovers spawn point
 	spawn = gets
 end
