@@ -6,7 +6,7 @@ for t in $(cat "tests/test-suite.txt") ; do
 	diff "tests/${t}.out" "/tmp/${t}.out" > /dev/null
 
 	if [ ${?} -ne 0 ] ; then
-		echo "Test failed: ${t}"
+		echo "${t} test failed."
 	else
 		echo "${t} test passed!"
 	fi
