@@ -8,7 +8,7 @@ for t in $(cat "tests/test-suite.txt") ; do
 	if [ ${?} -ne 0 ] ; then
 		echo "Test failed: ${t}"
 	else
-		echo "All tests passed!"
+		echo "${t} test passed!"
 	fi
 
 	rm "/tmp/${t}.out"

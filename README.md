@@ -39,4 +39,4 @@ Expected Output:
 1 3 N  
 5 1 E
 
-*Note: Although not specified, I did not like the idea of rovers running into each other, or worse... spawn on top of each other! If you try to spawn a rover on a coordinate with an existing rover, you will receive the message: "There is already a rover here!" Also, while a rover is exploring, if it is instructed to move forward into another rover, it will simply ignore that instruction.*
+*Note: Although not specified, I did not like the idea of rovers running into each other, or worse... spawn on top of each other! If you try to spawn a rover on a coordinate with an existing rover, you will receive the message: "There is already a rover here!" Also, while a rover is exploring, if it is instructed to move forward into another rover, it will simply ignore that instruction. Inputs are assumed to be valid for the most part.*
