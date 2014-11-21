@@ -1,7 +1,7 @@
 #!/bin/bash
 
 for t in $(cat "tests/test-suite.txt") ; do
-	ruby solution.rb < "tests/${t}.in" > "/tmp/${t}.out"
+	ruby deploy.rb < "tests/${t}.in" > "/tmp/${t}.out"
 
 	diff "tests/${t}.out" "/tmp/${t}.out" > /dev/null
 
