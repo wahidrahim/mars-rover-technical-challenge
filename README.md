@@ -1,4 +1,4 @@
-[MARS ROVERS PROBLEM](https://code.google.com/p/marsrovertechchallenge/)
+[MARS ROVER PROBLEM](https://code.google.com/p/marsrovertechchallenge/)
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 
